@@ -35,7 +35,7 @@ public class UITest
 		}
 		driver.manage().window().maximize();
 		driver.get("https://google.com/");
-		Assert.assertTrue(driver.getTitle().contains("Orange"), "Title does not match");
+		Assert.assertTrue(driver.getTitle().contains("Google"), "Title does not match");
 		driver.quit();
 	}
 	
